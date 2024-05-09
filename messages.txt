@@ -1,0 +1,1 @@
+[{"username":"Server","content":"Welcome to this sample chatbase system."}]
