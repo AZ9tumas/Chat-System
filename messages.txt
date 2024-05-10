@@ -1,1 +1,1 @@
-[{"username":"Server","content":"Welcome to this sample chatbase system."}]
+[{"username":"Server","content":"Welcome to this sample chat system."}]
