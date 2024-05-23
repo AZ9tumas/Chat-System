@@ -44,15 +44,13 @@ app.post('/messages', (req, res) => {
         content: req.body.message
     };
 
-    // Add the new message to the messages array
     messages.push(message);
-
     console.log(messages);
 
-    // Save the updated messages to the JSON file
+    /* Save the updated messages to the JSON file */
     fs.writeFileSync(messagesFilePath, JSON.stringify(messages));
 
-    res.sendStatus(200); // Send a success status
+    res.sendStatus(200);
 });
 
 app.get('/load', (req, res) => {
